@@ -24,7 +24,7 @@ I hope that systematic work and diligence will help me become an experienced Fro
 
 ## Skills and Proficiency:
 
-+ HTML5 
++ HTML
 + CSS(Preprocessor SCSS, Framework Bootstrap, BEM methodology)
 + JavaScript Basics
 + Windows OS, Linux(Ubuntu)
