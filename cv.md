@@ -27,9 +27,9 @@ I hope that systematic work and diligence will help me become an experienced Fro
 + HTML
 + CSS(Preprocessor SCSS, Framework Bootstrap, BEM methodology)
 + JavaScript Basics
-+ Windows OS, Linux(Ubuntu)
-+ Version control: Git(remote service GitHub)
-+ Figma(for web development)
++ Windows OS, Linux (Ubuntu)
++ Version control: Git (remote service GitHub)
++ Figma (for web development)
 + Editors: Sublime, VSCode
 ********************
 
