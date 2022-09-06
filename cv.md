@@ -1,7 +1,7 @@
 # Svetlana Didenko
 ![myphoto](https://user-images.githubusercontent.com/106669577/172364616-2639adbe-e460-4548-876e-ac11da3eee67.jpg)
-
 *******************
+
 ## Contact information:
 
  **Phone:** +374 91 183545
@@ -21,12 +21,16 @@ Of the entire spectrum of IT specialties, Frontend development attracts me the m
 
 I hope that systematic work and diligence will help me become an experienced Frontend Developer.
 ********************
+
 ## Skills and Proficiency:
 
-+ HTML5, CSS3
++ HTML5 
++ CSS(Preprocessor SCSS, Framework Bootstrap, BEM methodology)
 + JavaScript Basics
-+ Git, GitHub
-+ VS Code, Sublime Text
++ Windows OS, Linux(Ubuntu)
++ Version control: Git(remote service GitHub)
++ Figma(for web development)
++ Editors: Sublime, VSCode
 ********************
 
 ## Code example:
@@ -50,14 +54,21 @@ I hope that systematic work and diligence will help me become an experienced Fro
 ```
 ********************
 
-## Courses:
+## Education:
 
 + HTML and CSS course on the [https://ru.code-basics.com] (completed)
 + RS Schools Course «JavaScript/Front-end» (in progress)
 + JavaScript Manual on [https://learn.javascript.ru] (in progress)
 ********************
+
+## Experience:
+
++ My first job in development - https://didenkosvetatask2.netlify.app/
++ Project on the rsschool stage0 - https://didenkosveta-travel.netlify.app/
+********************
+
 ## Languages:
 
-+ English - Pre-Intermediate
-+ Russian - Native
++ English level - Pre-Intermediate
++ Russian level - Native
 ********************
