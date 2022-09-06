@@ -1,2 +1,2 @@
 # rsschool-cv
-training on the course at rsschool
+https://DidenkoSveta.github.io/rsschool-cv/cv
