@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/svg/logo.svg">
     <title>PetStory</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,44 +17,42 @@
     <div class="header__block">
         <header class="header__page ">
             <div class="header__wrapper">
-                <div class="page-header__logo">
-                    <a href="#" class="logo">
-                       <span class="logo__image"></span>
-                       <h1 class="logo__text">PetStory<br>online</h1>
-                   </a>
+
+                        <a href="../main/index.html" class="home__link"></a>
+                       <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-header">
+                       <h1 class="logo__text" id="logo__text-header">PetStory<br>online</h1>
                </div>
 
                <nav class="page-header__navigation">
                 <ul class="main-navigation">
-                  <li><a href="#">About</a></li>
+                  <li><a href="../main/index.html">About</a></li>
                   <li><a href="#">Map</a></li>
                   <li><a href="#">Zoos</a></li>
-                  <li><a href="#">Donate</a></li>
+                  <li><a href="../donate/index.html">Donate</a></li>
                   <li><a href="#">Contact us</a></li>
               </ul>
 
               <div id="main-navigation__hidden">
-                <a href="#social-links" class="main-navigation__hidden">Designed by &#64;</a>
+                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1" class="main-navigation__hidden">Designed by &#64;</a>
             </div>
         </nav>
-    </div>
+
 
 </header>
+    </div>
 <section class="Watch-your-favorite-animal-online">
     <div class="preview__block">
         <h4 class="preview__subtitle">
             watch<br>your<br><span id="favorite__word">favorite</span><br>animal<br>online
         </h4>
         <div class="preview__button">
-            <button type="button" class="button task-planner__button"><span class="button-text">WATH ONLINE</span></button>
+            <button type="button" class="button "><span class="button-text">WATH ONLINE</span></button>
         </div>
     </div>
 
     <div class="ogange-bg">
     </div>
 </section>
-
-</div>
 
 <section class="the__backsatge">
     <div class="backstage-block">
@@ -65,7 +64,7 @@
                     <p class="text__bottom__1">The site was founded on the basis of a volunteer movement to<br> protect and care for animals.</p>
                 </div>
                 <div class="container__backstage-bottom">
-                 <p class="backsatge-text__2">How it works </p>
+                 <p class="backsatge-text__2">How it works</p>
                  <p class="text__bottom__2">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p> 
              </div>
          </div>
@@ -162,7 +161,7 @@
             <div class="pick__block-text">
                 <p class="pick__text-1">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
                 <p class="pick__text-2">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around the world find joy in PetStory.</p>
-                <p class="pick__text-3">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our Emergency Support Fund.</p>
+                <p class="pick__text-3"><a id="pick__text-3" href="../donate/index.html">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our Emergency Support Fund.</a></p>
             </div>
 
             <h3 class="pick__title-how-it-works">How it works</h3>
@@ -175,14 +174,14 @@
 
                 <img src="assets/img/widjet-2.png" alt="payment" class="widjet widjet-3">
 
-                <img src="assets/svg/arrow-widjet.svg" alt="arrow" class="widjet widjet-arrow widjet-4">
+                <img src="assets/svg/arrow-widjet-2.svg" alt="arrow" class="widjet widjet-arrow widjet-4">
 
                 <img src="assets/img/widjet-3.png" alt="monkey" class="widjet widjet-5">
 
             </div>
 
             <div class="under__line"></div>
-            <div> <button type="button" class="feed-a-friend-now"><span class="button-text">FEED A FRIEND NOW</span></button>
+            <div><form action="../donate/index.html" class="button-text"><button type="button" class="feed-a-friend-now">FEED A FRIEND NOW</button></form>
             </div>
 
         </div>
@@ -193,6 +192,7 @@
 <section class="testimonials">
     <div class="testimonials_wrapper">
         <h2 class="testimonials__title">Testimonials</h2>
+        <div class="testimonials__scrollbar">
         <div class="testimonials__block">
 
             <div class="testimonials__slips">
@@ -232,10 +232,11 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
 <br>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
 </p>
             </div>
-            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-            <button class="testimonials__button"><span class="button-text">LEAVE FEEDBACK</span></button>
 
         </div>
+        </div>
+          <input class="progress__bar" type="range">
+         <button class="testimonials__button"><span class="button-text">LEAVE FEEDBACK</span></button>
         <div class="flower_foto-down">
             <img src="assets/img/flower_foto-down.png" alt="" class="flower_foto-img">
         </div>
@@ -246,7 +247,7 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
 <footer>
     <div class="footer__block">
         <div class="page-footer__logo">
-            <a href="#" class="logo">
+            <a href="../main/index.html" class="logo">
                <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-footer">
                <h1 class="logo__text">PetStory<br>online</h1>
            </a>
@@ -254,7 +255,7 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
        <div class="footer__navigation-block">
         <nav class="footer__navigation">
             <ul class="main-navigation">
-              <li class="footer__navigation-link"><a href="#">About</a></li>
+              <li class="footer__navigation-link"><a href="../main/index.html">About</a></li>
               <li class="footer__navigation-link"><a href="#">Map</a></li>
               <li class="footer__navigation-link"><a href="#">Zoos</a></li>
               <li class="footer__navigation-link"><a href="#">Contact us</a></li>
@@ -264,16 +265,17 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
 
   <div class="social-links">
     <ul class="social-links__list">
-        <li><a href="" class="facebook-link" target="_blank"></a><img src="assets/icon/facebook-link.svg" alt=""></li>
-        <li><a href="" class="twitter-link" target="_blank"></a><img src="assets/icon/twitter-link.png" alt=""></li>
-        <li><a href="" class="instagram-link" target="_blank"></a><img src="assets/icon/instagram-link.png" alt=""></li>
-        <li><a href="" class="youTube-link" target="_blank"></a><img src="assets/icon/youTube-link.png" alt=""></li>
+        <li id="link-facebook"><a href="https://www.facebook.com/"  target="_blank" class="link__logo facebook-logo">Facebook</a></li>
+        <li id="twitter-link"><a href="https://twitter.com/" class="twitter-logo link__logo" target="_blank">Twitter</a></li>
+        <li id="instagram-link"><a href="https://www.instagram.com/" class="instagram-logo link__logo" target="_blank"> Instagram</a></li>
+        <li id="youTube-link"><a href="https://www.youtube.com/" class="youTube-logo link__logo" target="_blank">YouTube</a></li>
     </ul>
 </div>
 
 <div class="footer__copyright">
-    <p class="disigned__by">Designed by Alisa Samborskaya</p>
-    <p class="rsschool">&#64;RSSchool & &#64;Yem Digital 2021</p>
+    <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1" id="copyright-link">
+    <p class="disigned__by">Designed by Alisa Samborskaya<br> &#64;RSSchool & &#64;Yem Digital 2021</p>
+    </a>
 </div>
 
 <div class="title__planner">
@@ -284,7 +286,7 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
     </div>
 
 </div>
-     <button class="footer__button"><span class="button-text">DONATE FOR VOLUNTEERS</span></button>
+     <form action="../donate/index.html" class="button-text"><button class="footer__button">DONATE FOR VOLUNTEERS</button></form>
 
 </div>
 
