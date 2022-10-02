@@ -1,1 +1,1 @@
-// @media screen and (max-width: 1000px)
+// @media screen and (max-width: 320px)
