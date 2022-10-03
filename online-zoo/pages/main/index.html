@@ -24,10 +24,11 @@
                 <h1 class="logo__text" id="logo__text-header">PetStory<br>online</h1>
             </div>
             <div id="header__wrapper-1000">
-                <a href="../main/index.html" class="home__link"><img src="assets/svg/logo_footer.png" alt="bamboo" class="logo__image-header-1000"></a>
-               
-            </div>
+                <a href="../main/index.html" class="home__link"><img src="assets/svg/logo_footer.png" alt="bamboo"
+                        class="logo__image-header-1000"></a>
 
+            </div>
+            <button type="button" class="burger page-header__burger"></button>
             <nav class="page-header__navigation">
                 <ul class="main-navigation">
                     <li><a class="navigation__about" href="../main/index.html">About</a></li>
@@ -63,6 +64,7 @@
     <section class="the__backsatge">
         <div class="backstage-block">
             <img src="assets/img/flower_foto1.png" alt="flower" class="flower_foto">
+            <img src="assets/img/flower_foto1-320px.png" alt="flower" class="flower_foto-320">
             <div class="backstage-container">
                 <div class="container__backstage">
                     <div class="container__backstage-top">
@@ -93,12 +95,12 @@
 
                         <div class="gallery__card gallery_card-1">
                             <div class="gallery_img ">
-                                <img src="assets/img/gallery__img-1.jpg" alt="panda" class="">
+                                <img src="assets/img/gallery__img-1.jpg" alt="panda" id="gallery_img-panda">
                             </div>
                             <div class="desc__card">
                                 <h4 class="gallery__title">GIANT PANDAS</h4>
                                 <p class="gallery__text">Native to Southwest China</p>
-                                <div class="icon__block">
+                                <div class="icon__block icon-pets">
                                     <img src="assets/icon/meet-fish_icon.svg" alt="" class="gallery__icon icon__fish">
                                     <img src="assets/icon/banana-bamboo_icon.svg" alt=""
                                         class="gallery__icon icon__banana">
@@ -113,8 +115,9 @@
                             <div class="desc__card">
                                 <h4 class="gallery__title">EAGLES</h4>
                                 <p class="gallery__text">Native to South America</p>
-                                <div class="icon__block_2">
-                                    <img src="assets/icon/meet-fish_icon.svg" alt="" class="gallery__icon_2">
+                                <div class="icon__block_2 icon-pets">
+                                    <img src="assets/icon/meet-fish_icon.svg" alt=""
+                                        class="gallery__icon gallery__icon_2">
                                 </div>
                             </div>
                         </div>
@@ -126,7 +129,7 @@
                             <div class="desc__card">
                                 <h4 class="gallery__title">GORILLAS</h4>
                                 <p class="gallery__text">Native to Congo</p>
-                                <div class="icon__block_3">
+                                <div class="icon__block_3 icon-pets">
                                     <img src="assets/icon/banana-bamboo_icon.svg" alt="" class="gallery__icon">
                                 </div>
                             </div>
@@ -139,7 +142,7 @@
                             <div class="desc__card">
                                 <h4 class="gallery__title">TWO-TOED SLOTH</h4>
                                 <p class="gallery__text">Mesoamerica, South America</p>
-                                <div class="icon__block_4">
+                                <div class="icon__block_4 icon-pets">
                                     <img src="assets/icon/banana-bamboo_icon.svg" alt="" class="gallery__icon">
                                 </div>
                             </div>
@@ -152,7 +155,20 @@
                             <div class="desc__card">
                                 <h4 class="gallery__title">CHEETAHS</h4>
                                 <p class="gallery__text">Native to Africa</p>
-                                <div class="icon__block_5">
+                                <div class="icon__block_5 icon-pets">
+                                    <img src="assets/icon/meet-fish_icon.svg" alt="" class="gallery__icon">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="gallery__card gallery_card-7">
+                            <div class="gallery_img">
+                                <!-- <img src="assets/img/gallery__img-6.jpg" alt="algator"> -->
+                            </div>
+                            <div class="desc__card desc__card-7">
+                                <h4 class="gallery__title">ALLIGATORS</h4>
+                                <p class="gallery__text">Native to Southeastern United States</p>
+                                <div class="icon-pets" id="icon__block_7">
                                     <img src="assets/icon/meet-fish_icon.svg" alt="" class="gallery__icon">
                                 </div>
                             </div>
@@ -165,15 +181,16 @@
                             <div class="desc__card">
                                 <h4 class="gallery__title">PENGUINS</h4>
                                 <p class="gallery__text">Native to Antarctica</p>
-                                <div class="icon__block_6">
+                                <div class="icon__block_6 icon-pets">
                                     <img src="assets/icon/meet-fish_icon.svg" alt="" class="gallery__icon">
                                 </div>
                             </div>
                         </div>
-                
+
+
                         <button type="button" class="choose-your-favorite"><span class="button-text">CHOOSE YOUR
                                 FAVORITE</span></button>
-                                
+
                     </div>
                     <div class="gallery__button__side">
                         <button type="button" class=" gallery__button gallery__button_left"><img
@@ -196,6 +213,13 @@
                 <img src="assets/img/flower_foto-left-1000px.png" alt="palm_foto" class="flower__left-foto-1000">
                 <img src="assets/img/flower_foto-right-1000px.png" alt="strelitzia" class="flower__right-foto-1000">
             </div>
+
+            <div class="pick__insert-320">
+                <img src="assets/img/flower_foto-left-320px.png" alt="palm_foto" class="flower__left-foto-320">
+                <img src="assets/img/flower_foto-right-320px.png" alt="strelitzia" class="flower__right-foto-320">
+            </div>
+
+
 
             <div class="pick__wrraper">
 
@@ -233,10 +257,26 @@
 
                     </div>
 
+                    <div class="pick__image-block-320">
+
+                        <img src="assets/img/widjet-1-320px.png" alt="pay" class="widjet-320 widjet-320-1">
+
+                        <img src="assets/svg/arrow-widjet-320px.svg" alt="arrow"
+                            class="widjet-320 widjet-arrow-320 widjet-320-2">
+
+                        <img src="assets/img/widjet-2-320px.png" alt="arrow" class="widjet-320 widjet-320-3">
+
+                        <img src="assets/svg/arrow-widjet-320px.svg" alt="payment"
+                            class="widjet-320 widjet-arrow-320 widjet-320-4">
+
+                        <img src="assets/img/widjet3-320px.png" alt="monkey" class="widjet-320 widjet-320-5">
+
+                    </div>
+
                     <div class="under__line"></div>
                     <div>
-                        <form action="../donate/index.html" class="button-text form-feed-a-friend-now "><button type="button"
-                                class="feed-a-friend-now">FEED A FRIEND NOW</button></form>
+                        <form action="../donate/index.html" class="button-text form-feed-a-friend-now"><button
+                                type="button" class="feed-a-friend-now">FEED A FRIEND NOW</button></form>
                     </div>
 
                 </div>
@@ -308,7 +348,7 @@
                         <div class="testimonials__slips testimonials__slips-4">
                             <img src="assets/icon/user_icon-4.png" alt=""
                                 class="testimonials__avatar testimonials__avatar-4">
-                            <p class="testimonials__user-name">Mila Riksha</p>
+                            <p class="testimonials__user-name">Oska Samborska</p>
                             <p class="testimonials__from">Local Austria &bull; Yesterday</p>
                             <p class="testimonials__text">My son delighted very much ljves to watch gouillas. Online zoo
                                 is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
@@ -326,16 +366,21 @@
                     </div>
                 </div>
                 <input class="progress__bar" type="range">
-                <button class="testimonials__button"><span class="button-text">LEAVE FEEDBACK</span></button>
+                <button class="testimonials__button"><span class="button-text footer-button-text">LEAVE
+                        FEEDBACK</span></button>
                 <div class="flower_foto-down">
                     <img src="assets/img/flower_foto-down.png" alt="" class="flower_foto-img">
                 </div>
             </div>
             <div class="flower_foto-down-1000">
                 <img src="assets/img/flower_foto-down-1000px.png" alt="" class="flower_foto-img-1000">
-            </div>  
+            </div>
             <div class="flower_foto-down-640">
                 <img src="assets/img/flower_foto-down-640px.png" alt="" class="flower_foto-img-640">
+            </div>
+
+            <div class="flower_foto-down-320">
+                <img src="assets/img/flower_foto-down-320px.png" alt="" class="flower_foto-img-320">
             </div>
         </section>
     </main>
@@ -346,6 +391,13 @@
                 <a href="../main/index.html" class="logo">
                     <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-footer">
                     <h1 class="logo__text">PetStory<br>online</h1>
+                </a>
+            </div>
+
+            <div class="page-footer__logo-320">
+                <a href="../main/index.html" class="logo-320">
+                    <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-footer-320">
+                    <h1 class="logo__text" id="logo__text-320">PetStory online</h1>
                 </a>
             </div>
             <div class="footer__navigation-block">
@@ -388,7 +440,8 @@
                 </div>
 
             </div>
-            <form action="../donate/index.html" class="button-text form-footer__button"><button class="footer__button">DONATE FOR
+            <form action="../donate/index.html" class="button-text form-footer__button"><button
+                    class="footer__button">DONATE FOR
                     VOLUNTEERS</button></form>
 
         </div>
