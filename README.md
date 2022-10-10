@@ -1,2 +1,2 @@
 # rsschool-cv
-training on the course at rsschool
+Making a website on the course at rsschool
