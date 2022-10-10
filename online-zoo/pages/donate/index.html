@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/svg/logo.svg">
+    <title>Donate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="header__header">
+        <header class="header__page">
+            <div class="header__wrapper">
+                <div class="page-header__logo">
+                    <a href="../main/index.html" class="logo">
+                        <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-header">
+                        <h1 class="logo__text " id="logo__text-header">PetStory<br>online</h1>
+                    </a>
+                </div>
+                <button type="button" class="burger page-header__burger" id="burger"></button>
+                <div class="shadow">
+                    <nav class="page-header__navigation">
+                        <button type="button" class="close page-header__close"></button>
+                        <ul class="main-navigation" id="header-main-navigation">
+                            <li> <a href="../main/index.html" class="petstory-burger"><img src="assets/svg/Frame_17.svg"
+                                        alt="Pet Story" class="logo-burger"></a></li>
+                            <li><a class="navigation__about" href="../main/index.html">About</a></li>
+                            <li><a href="#">Map</a></li>
+                            <li><a href="#">Zoos</a></li>
+                            <li><a href="index.html">Donate</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+
+                        <div id="main-navigation__hidden">
+                            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1"
+                                class="main-navigation__hidden">Designed by &#64;</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="panda__header">
+        <img src="assets/img/panda_bg.jpg" alt="panda" class="panda_header">
+    </div>
+    <div class="panda__header-1000">
+        <img src="assets/img/panda_bg-1000.jpg" alt="panda" class="panda_header-1000">
+    </div>
+    <div class="panda__header-640">
+        <img src="assets/img/panda_bg-640.jpg" alt="panda" class="panda_header-640">
+    </div>
+    <div class="panda__header-320">
+        <img src="assets/img/panda_bg-320.jpg" alt="panda" class="panda_header-320">
+    </div>
+
+    <section class="pick-and-feed">
+        <div class="pick-and-feed__bg-block">
+            <div class="container">
+                <div class="pick-and-feed__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</div>
+                <div class="pick-and-feed__info">Even though the Zoo has been able to reopen, we are at a greatly
+                    reduced capacity with educational programs and public and private events cancelled or postponed for
+                    additional months. We need you now more than ever to help ensure that we overcome these challenges.
+                    We have been actively raising funds in the community, and we are grateful for the generosity. But
+                    much more support is still needed, and we need your help! Please consider a gift today – no matter
+                    what size – to help us sustain our mission.</div>
+                <h2 class="pick-and-feed__donation-info">Donation Information</h2>
+                <div class="pick-and-feed__block">
+                    <h2 class="pick-and-feed__block-title">Pick and feed a friend</h2>
+                    <div class="pick-and-feed__block-text">We know the animals bring you joy, and in these extraordinary
+                        times, we’re glad.</div>
+                    <div class="pick-and-feed__block-diet">
+                        <div class="pick-and-feed__diet">
+                            <div class="diet-text">Panda diet for the day.</div>
+                        </div>
+                        <h2 class="number__pick">4</h2>
+                        <h6 class="number__pick-x">Х</h6>
+                        <img src="assets/svg/animals-widget.svg" alt="panda" class="diet-panda">
+                        <img src="assets/svg/animals-widget-320.svg" alt="panda" class="diet-panda-320">
+                    </div>
+                    <div class="pick-and-feed__amount-block">
+                        <div class="amount-block__text">Amount</div>
+                        <div class="amount__progress-block">
+                            <input type="range" min="1" max="8" value="3" class="amount__progress" id="myRange">
+                        </div>
+                        <div class="amount-block__circles">
+                            <div class="amount-block__circle circle-1"></div>
+                            <div class="amount-block__circle circle-2"></div>
+                            <div class="amount-block__circle amount-block__active-circle"></div>
+                            <div class="amount-block__circle circle-3"></div>
+                            <div class="amount-block__circle"></div>
+                            <div class="amount-block__circle"></div>
+                            <div class="amount-block__circle"></div>
+                            <div class="amount-block__circle"></div>
+                        </div>
+                        <div class="amount-block__prices">
+                            <div class="prices__price-block price-block-1">&#36;5000</div>
+                            <div class="prices__price-block price-block-2">&#36;2000</div>
+                            <div class="prices__price-block price-block-3">&#36;1000</div>
+                            <div class="prices__price-block">&#36;500</div>
+                            <div class="prices__price-block">&#36;250</div>
+                            <div class="prices__price-block price-block-6">&#36;100</div>
+                            <div class="prices__price-block">&#36;50</div>
+                            <div class="prices__price-block">&#36;25</div>
+                        </div>
+                        <form class="amount-block__form" method="get">
+                            <label class="amount-block__label">
+                                <input type="number" class="amount-block__input" name="amount"
+                                    placeholder=" Another amount" oninput="this.value=this.value.substring(0,4)"
+                                    required>
+                            </label>
+                        </form>
+                        <div class="amount-block__choose">
+                            <input type="radio" id="monthly" name="choose" value="Monthly">
+                            <label for="monthly" class="monthly-choose">Monthly</label>
+                            <input type="radio" id="once" name="choose" value="Once" checked>
+                            <label for="once">Once</label>
+                        </div>
+                    </div>
+                    <div class="pick__button-block">
+                        <button class="pick-and-feed__button">Feed a friend now</button>
+                        <div class="pick-and-feed__share">Share with your friends on social networks </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__block">
+            <div class="page-footer__logo">
+                <a href="../main/index.html" class="logo">
+                    <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-footer">
+                    <h2 class="logo__text" id="logo__text-footer">PetStory<br>online</h2>
+                    <h2 class="logo__text" id="logo__text-footer-320">PetStory online</h2>
+                </a>
+            </div>
+            <div class="footer__navigation-block">
+                <nav class="footer__navigation">
+                    <ul class="main-navigation" id="main-navigation-footer">
+                        <li class="footer__navigation-link"><a class="navigation__about"
+                                href="../main/index.html">About</a></li>
+                        <li class="footer__navigation-link"><a href="#">Map</a></li>
+                        <li class="footer__navigation-link"><a href="#">Zoos</a></li>
+                        <li class="footer__navigation-link"><a id="footer__contact" href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="social-links">
+                <ul class="social-links__list">
+                    <li id="link-facebook"><a href="https://www.facebook.com/" target="_blank"
+                            class="link__logo facebook-logo">Facebook</a></li>
+                    <li id="twitter-link"><a href="https://twitter.com/" class="twitter-logo link__logo"
+                            target="_blank">Twitter</a></li>
+                    <li id="instagram-link"><a href="https://www.instagram.com/" class="instagram-logo link__logo"
+                            target="_blank"> Instagram</a></li>
+                    <li id="youTube-link"><a href="https://www.youtube.com/" class="youTube-logo link__logo"
+                            target="_blank">YouTube</a></li>
+                </ul>
+            </div>
+
+
+            <div class="social-links-320">
+                <ul class="social-links__list-320">
+                    <li id="link-facebook"><a href="https://www.facebook.com/" target="_blank"
+                            class="link__logo facebook-logo"> </a></li>
+                    <li id="twitter-link"><a href="https://twitter.com/" class="twitter-logo link__logo"
+                            target="_blank"> </a></li>
+                    <li id="instagram-link"><a href="https://www.instagram.com/" class="instagram-logo link__logo"
+                            target="_blank"> </a></li>
+                    <li id="youTube-link"><a href="https://www.youtube.com/" class="youTube-logo link__logo"
+                            target="_blank"> </a></li>
+                </ul>
+            </div>
+
+            <div class="footer__copyright">
+                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1"
+                    id="copyright-link">
+                    <p class="disigned__by">Designed by Alisa Samborskaya <br>&#64;RSSchool & &#64;Yem Digital 2021</p>
+                </a>
+            </div>
+
+            <div class="title__planner">
+                <p class="title__planner-text">Subscribe to our news</p>
+                <div class="task__planner">
+                    <input type="email" placeholder=" Enter your email" class="task-planner__input">
+                    <button type="button" class="button" id="task-planner__button">Submit</button>
+                </div>
+
+            </div>
+            <form action="../donate/index.html" class="button-text "><button class="footer__button">DONATE FOR
+                    VOLUNTEERS</button></form>
+        </div>
+
+    </footer>
+    <script src="js/burger.js"></script>
+
+</body>
+
+</html>
