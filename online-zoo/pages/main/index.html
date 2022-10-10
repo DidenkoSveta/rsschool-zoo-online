@@ -17,6 +17,7 @@
 
 <body>
     <div class="header__block">
+
         <header class="header__page">
             <div class="header__wrapper header__wrapper-logo">
                 <a href="../main/index.html" class="home__link"></a>
@@ -26,26 +27,31 @@
             <div id="header__wrapper-1000">
                 <a href="../main/index.html" class="home__link"><img src="assets/svg/logo_footer.png" alt="bamboo"
                         class="logo__image-header-1000"></a>
-
             </div>
-            <button type="button" class="burger page-header__burger"></button>
+
+            <button type="button" class="burger page-header__burger" id="burger"></button>
+           <div class="shadow">
             <nav class="page-header__navigation">
-                <ul class="main-navigation">
+                <button type="button" class="close page-header__close"></button>
+                <ul class="main-navigation" id="main-navigation-header">
+                    <li> <a href="../main/index.html" class="petstory-burger"><img src="assets/svg/Frame 17.svg"
+                                alt="Pet Story" class="logo-burger"></a></li>
                     <li><a class="navigation__about" href="../main/index.html">About</a></li>
                     <li><a href="#">Map</a></li>
                     <li><a href="#">Zoos</a></li>
                     <li><a href="../donate/index.html">Donate</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
+             
 
-                <div id="main-navigation__hidden">
-                    <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1"
-                        class="main-navigation__hidden">Designed by &#64;</a>
-                </div>
+             <div id="main-navigation__hidden">
+                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1"
+                 class="main-navigation__hidden">Designed by &copy;</a>
+                 </div>
             </nav>
+        </div>
 
-
-        </header>
+     </header>
     </div>
     <section class="Watch-your-favorite-animal-online">
         <div class="preview__block">
@@ -447,6 +453,7 @@
         </div>
 
     </footer>
+    <script src="js/burger.js"></script>
 </body>
 
 </html>
