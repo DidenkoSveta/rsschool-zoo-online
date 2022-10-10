@@ -15,32 +15,38 @@
 </head>
 
 <body>
-    <header class="header__page">
-        <div class="header__wrapper">
-            <div class="page-header__logo">
-                <a href="../main/index.html" class="logo">
-                    <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-header">
-                    <h1 class="logo__text " id="logo__text-header">PetStory<br>online</h1>
-                </a>
-            </div>
-            <button type="button" class="burger page-header__burger"></button>
-            <nav class="page-header__navigation">
-                <ul class="main-navigation" id="header-main-navigation">
-                    <li><a class="navigation__about" href="../main/index.html">About</a></li>
-                    <li><a href="#">Map</a></li>
-                    <li><a href="#">Zoos</a></li>
-                    <li><a href="index.html">Donate</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
-
-                <div id="main-navigation__hidden">
-                    <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1"
-                        class="main-navigation__hidden">Designed by &#64;</a>
+    <div class="header__header">
+        <header class="header__page">
+            <div class="header__wrapper">
+                <div class="page-header__logo">
+                    <a href="../main/index.html" class="logo">
+                        <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-header">
+                        <h1 class="logo__text " id="logo__text-header">PetStory<br>online</h1>
+                    </a>
                 </div>
-            </nav>
-        </div>
+                <button type="button" class="burger page-header__burger" id="burger"></button>
+                <div class="shadow">
+                    <nav class="page-header__navigation">
+                        <button type="button" class="close page-header__close"></button>
+                        <ul class="main-navigation" id="header-main-navigation">
+                            <li> <a href="../main/index.html" class="petstory-burger"><img src="assets/svg/Frame_17.svg"
+                                        alt="Pet Story" class="logo-burger"></a></li>
+                            <li><a class="navigation__about" href="../main/index.html">About</a></li>
+                            <li><a href="#">Map</a></li>
+                            <li><a href="#">Zoos</a></li>
+                            <li><a href="index.html">Donate</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
 
-    </header>
+                        <div id="main-navigation__hidden">
+                            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1"
+                                class="main-navigation__hidden">Designed by &#64;</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
     <div class="panda__header">
         <img src="assets/img/panda_bg.jpg" alt="panda" class="panda_header">
     </div>
@@ -75,7 +81,8 @@
                         </div>
                         <h2 class="number__pick">4</h2>
                         <h6 class="number__pick-x">Х</h6>
-                        <img src="assets/svg/animals-widget.svg" alt="" class="diet-panda">
+                        <img src="assets/svg/animals-widget.svg" alt="panda" class="diet-panda">
+                        <img src="assets/svg/animals-widget-320.svg" alt="panda" class="diet-panda-320">
                     </div>
                     <div class="pick-and-feed__amount-block">
                         <div class="amount-block__text">Amount</div>
@@ -130,12 +137,13 @@
             <div class="page-footer__logo">
                 <a href="../main/index.html" class="logo">
                     <img src="assets/svg/bamboo.svg" alt="bamboo" class="logo__image-footer">
-                    <h2 class="logo__text">PetStory<br>online</h2>
+                    <h2 class="logo__text" id="logo__text-footer">PetStory<br>online</h2>
+                    <h2 class="logo__text" id="logo__text-footer-320">PetStory online</h2>
                 </a>
             </div>
             <div class="footer__navigation-block">
                 <nav class="footer__navigation">
-                    <ul class="main-navigation">
+                    <ul class="main-navigation" id="main-navigation-footer">
                         <li class="footer__navigation-link"><a class="navigation__about"
                                 href="../main/index.html">About</a></li>
                         <li class="footer__navigation-link"><a href="#">Map</a></li>
@@ -155,6 +163,20 @@
                             target="_blank"> Instagram</a></li>
                     <li id="youTube-link"><a href="https://www.youtube.com/" class="youTube-logo link__logo"
                             target="_blank">YouTube</a></li>
+                </ul>
+            </div>
+
+
+            <div class="social-links-320">
+                <ul class="social-links__list-320">
+                    <li id="link-facebook"><a href="https://www.facebook.com/" target="_blank"
+                            class="link__logo facebook-logo"> </a></li>
+                    <li id="twitter-link"><a href="https://twitter.com/" class="twitter-logo link__logo"
+                            target="_blank"> </a></li>
+                    <li id="instagram-link"><a href="https://www.instagram.com/" class="instagram-logo link__logo"
+                            target="_blank"> </a></li>
+                    <li id="youTube-link"><a href="https://www.youtube.com/" class="youTube-logo link__logo"
+                            target="_blank"> </a></li>
                 </ul>
             </div>
 
@@ -178,6 +200,7 @@
         </div>
 
     </footer>
+    <script src="js/burger.js"></script>
 
 </body>
 
