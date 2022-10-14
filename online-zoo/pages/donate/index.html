@@ -40,9 +40,10 @@
 
                         <div id="main-navigation__hidden">
                             <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1"
-                                class="main-navigation__hidden">Designed by &#64;</a>
+                                class="main-navigation__hidden">Designed by &copy;</a>
                         </div>
                     </nav>
+                    <div class="background-page"></div>
                 </div>
             </div>
         </header>
@@ -89,37 +90,64 @@
                         <div class="amount__progress-block">
                             <input type="range" min="1" max="8" value="3" class="amount__progress" id="myRange">
                         </div>
-                        <div class="amount-block__circles">
-                            <div class="amount-block__circle circle-1"></div>
-                            <div class="amount-block__circle circle-2"></div>
-                            <div class="amount-block__circle amount-block__active-circle"></div>
-                            <div class="amount-block__circle circle-3"></div>
-                            <div class="amount-block__circle"></div>
-                            <div class="amount-block__circle"></div>
-                            <div class="amount-block__circle"></div>
-                            <div class="amount-block__circle"></div>
+
+                        <div class="progress__form">
+
+                            <div class="form__bit">
+                                <input type="radio" id="radio__btn-1" name="radio" value="5000" checked>      
+                                <label for="radio__btn-1" class="circle circle-1"><p>&#36;5000</p></label>
+                            </div>
+
+                            <div class="form__bit">
+                                <input type="radio" id="radio__btn-2" name="radio" value="2000">      
+                                <label for="radio__btn-2" class="circle circle-2"><p>&#36;2000</p></label>
+                            </div>
+
+                            <div class="form__bit">
+                                <input type="radio" id="radio__btn-3" name="radio" value="1000">      
+                                <label for="radio__btn-3" class="circle circle-3"><p>&#36;1000</p></label>
+                            </div>
+
+                            <div class="form__bit">
+                                <input type="radio" id="radio__btn-4" name="radio" value="500">      
+                                <label for="radio__btn-4" class="circle circle-4"><p>&#36;500</p></label>
+                            </div>
+
+                            <div class="form__bit">
+                                <input type="radio" id="radio__btn-5" name="radio" value="250">      
+                                <label for="radio__btn-5" class="circle circle-5"><p>&#36;250</p></label>
+                            </div>
+
+                            <div class="form__bit">
+                                <input type="radio" id="radio__btn-6" name="radio" value="100">      
+                                <label for="radio__btn-6" class="circle circle-6"><p>&#36;100</p></label>
+                            </div>
+
+                            <div class="form__bit">
+                                <input type="radio" id="radio__btn-7" name="radio" value="50">      
+                                <label for="radio__btn-7" class="circle circle-7"><p>&#36;50</p></label>
+                            </div>
+
+                            <div class="form__bit">
+                                <input type="radio" id="radio__btn-8" name="radio" value="25">      
+                                <label for="radio__btn-8" class="circle circle-8"><p>&#36;25</p></label>
+                            </div>
+
                         </div>
-                        <div class="amount-block__prices">
-                            <div class="prices__price-block price-block-1">&#36;5000</div>
-                            <div class="prices__price-block price-block-2">&#36;2000</div>
-                            <div class="prices__price-block price-block-3">&#36;1000</div>
-                            <div class="prices__price-block">&#36;500</div>
-                            <div class="prices__price-block">&#36;250</div>
-                            <div class="prices__price-block price-block-6">&#36;100</div>
-                            <div class="prices__price-block">&#36;50</div>
-                            <div class="prices__price-block">&#36;25</div>
-                        </div>
+
+
+                    <div class="another__form">
+                       
                         <form class="amount-block__form" method="get">
                             <label class="amount-block__label">
                                 <input type="number" class="amount-block__input" name="amount"
-                                    placeholder=" Another amount" oninput="this.value=this.value.substring(0,4)"
-                                    required>
+                                    placeholder=" Another amount" min="0" max="9999" value="100">
                             </label>
                         </form>
                         <div class="amount-block__choose">
-                            <input type="radio" id="monthly" name="choose" value="Monthly">
+                            <input type="radio" id="radio__btn-1" name="radio" value="1">
                             <label for="monthly" class="monthly-choose">Monthly</label>
-                            <input type="radio" id="once" name="choose" value="Once" checked>
+                            <input type="radio" id="radio__btn-8" name="radio" value="2" checked>
                             <label for="once">Once</label>
                         </div>
                     </div>
@@ -128,6 +156,7 @@
                         <div class="pick-and-feed__share">Share with your friends on social networks </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </section>
@@ -201,6 +230,7 @@
 
     </footer>
     <script src="js/burger.js"></script>
+    <script src="js/progress_bar.js"></script>
 
 </body>
 

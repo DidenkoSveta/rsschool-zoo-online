@@ -11,7 +11,13 @@ document.addEventListener('click', (e) => {
     || !e.target.classList.contains('shadow')
     && !e.target.classList.contains('burger')) {
     menu.classList.remove('show');
- }
+  }
+})
+
+menu.addEventListener('click', (e) => {
+    if(!e.target.classList.contains('menu')) {
+    menu.classList.remove('show');
+    }
 });
 
 
