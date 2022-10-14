@@ -3532,7 +3532,7 @@ color: var(--color-green);
 
 		  @media (max-width: 640px) {
 			.shadow {
-				z-index: 10;
+				z-index: 8;
 				background-color: rgba(0,0,0,.6);
 				position: fixed;
 				left: 0;
@@ -3545,7 +3545,7 @@ color: var(--color-green);
 
 			  @media (max-width: 320px) {
 				.shadow {
-					z-index: 10;
+					z-index: 8;
 					background-color: rgba(0,0,0,.6);
 					position: fixed;
 					left: 0;
@@ -3555,6 +3555,8 @@ color: var(--color-green);
 					transform: translateX(320px);
 			 } 
 				  }
+
+				  
 
 
 	
